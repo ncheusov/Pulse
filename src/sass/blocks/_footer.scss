@@ -58,8 +58,11 @@ $white      : #FFFFFF;
         border-radius: 100%;
         margin: 0 15px;
         margin-top: 38px;
+        transition: 0.5s all;
         &:hover {
-            bottom: 5px;
+            // box-shadow: 3px 3px 30px #fff;
+            transform: scale(1.2);
+            
         }
         img {
             height: 27px;
