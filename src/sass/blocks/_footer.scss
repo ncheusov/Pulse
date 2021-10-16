@@ -1,18 +1,3 @@
-$icon-size    : 60px;
-$border-radius: 0.5;//15% = 0.15, 50% = 0.50 etc.
-
-$background   : #2d2c3e;
-$background-b : #2d2c3e;
-
-// Icon Colors
-$green        : #16A085;
-$red          : #C82647;
-$green-l      : #8CC63F;
-$orange       : #EB9532;
-$purple       : #7E3661;
-
-// Text
-$white      : #FFFFFF;
 
 .footer {
     position: relative;
@@ -72,5 +57,10 @@ $white      : #FFFFFF;
         display: flex;
         justify-content: center;
         align-items: center;
+    }
+    iframe {
+        width: 100%; 
+        height: 630px;
+        border:0;
     }
 }
